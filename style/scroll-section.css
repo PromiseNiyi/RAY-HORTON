@@ -1,0 +1,27 @@
+/* Custom scrollbar track: starts at 10% from the top and fills 90% of the viewport height */
+#custom-scrollbar {
+  position: fixed;
+  top: 10vh;           /* 10% from the top */
+  right: 10px;
+  width: 12px;
+  height: 90vh;        /* 90% of the viewport height */
+  background: #ffffff00;
+  z-index: 1000;
+}
+
+/* Custom scrollbar thumb */
+#custom-thumb {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #feffbb;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 20%;
+  transition: all  0.3s;
+}
+
+#custom-thumb:hover {
+  opacity: 1;
+  background: #e7eb17;
+}

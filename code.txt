@@ -1,0 +1,82 @@
+ .logo-carousel {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+      }
+      
+      .logo-wrapper {
+        width: 100%;
+        max-width: 100%;
+        margin-inline: auto;
+        position: relative;
+        height: 100%;
+        /* margin-top: 4rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        /* mask-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 1) 20%,
+          rgba(0, 0, 0, 1) 80%,
+          rgba(0, 0, 0, 0)
+        ); */
+      }
+      
+      @keyframes scrollRight {
+        to {
+          right: -200px;
+        }
+      }
+      
+      .items {
+        width: 2000px;
+        height: 100px;
+        /* background-color: rgb(49, 90, 88); */
+        border-radius: 6px;
+        position: absolute;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        right: max(calc(200px * 8), calc(100% + 200px));
+        animation-name: scrollRight;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+      }
+      
+      .item11 {
+        animation-delay: calc(30s / 8 * (8 - 1) * -1);
+      }
+      
+      .item12 {
+        animation-delay: calc(30s / 8 * (8 - 2) * -1);
+      }
+      
+      .item13 {
+        animation-delay: calc(30s / 8 * (8 - 3) * -1);
+      }
+      
+      .item14 {
+        animation-delay: calc(30s / 8 * (8 - 4) * -1);
+      }
+      
+      .item15 {
+        animation-delay: calc(30s / 8 * (8 - 5) * -1);
+      }
+      
+      .item16 {
+        animation-delay: calc(30s / 8 * (8 - 6) * -1);
+      }
+      
+      .item17 {
+        animation-delay: calc(30s / 8 * (8 - 7) * -1);
+      }
+      
+      .item18 {
+        animation-delay: calc(30s / 8 * (8 - 8) * -1);
+      }
