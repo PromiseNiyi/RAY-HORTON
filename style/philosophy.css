@@ -1,0 +1,100 @@
+.section-One{
+    height: 80vh;
+    background-color: #000;
+    background: 
+    linear-gradient(#000000ec, #000000e7, #000000e0, #000000cc, #000000b7, #2b3a02a1, #7da01d71, #ffffff86, #fff), /* overlay with 50% black */
+    url('/images/8.png') no-repeat center center;
+    background-size: cover;
+    background-position: top  center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section-One .content{
+    width: 70%;
+}
+.section-One .content h1{
+    text-align: center;
+    font-size: 70pt;
+    color: #fff;
+}
+.section-One .content p{
+    text-align: center;
+    color: #fff;
+}
+.content img{
+    margin-top: 3em;
+}
+
+
+.section-Two{
+    min-height: 70vh;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px 10rem;
+    overflow: hidden;
+}
+.section-Two img{
+    width: 750px;
+    }
+
+
+    @media only screen and (max-width: 1000px) {
+        .section-One{
+            min-height: 80vw;
+            /* height: auto; */
+        }
+        .section-One .content{
+            width: 75%;
+        }
+    }
+
+    @media only screen and (max-width: 750px) {
+        .section-One{
+            padding: 25px;
+        }
+        .section-One .content{
+            width: 100%;
+        }
+        .section-One .content h1{
+            font-size: 50pt;
+        }
+        .section-One .content br{
+            display: none;
+        }
+
+    }
+
+    @media only screen and (max-width: 700px) {
+    .section-Two img{
+        width: 650px;
+        }
+    }
+@media only screen and (max-width: 600px) {
+
+
+    .section-One .content h1{
+        font-size: 40pt;
+            }
+    .section-Two img{
+        width: 470px;
+        }
+
+        .section-Two{
+            min-height: 50vh;
+            padding: 25px 25px 2rem;
+        }
+}
+@media only screen and (max-width: 450px) {
+    .section-Two img{
+        width: 370px;
+        }
+}
+
+

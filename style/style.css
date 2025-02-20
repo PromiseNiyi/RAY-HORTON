@@ -200,6 +200,7 @@ html {
   scrollbar-width: none; /* Firefox */
   font-family: 'Mazzard H';
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 p{
@@ -218,7 +219,7 @@ p{
   header a p {
     text-decoration: none;
     font-size: 20pt;
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     color: black;
   }
@@ -355,7 +356,7 @@ p{
       }
       .overlay a  p{
         font-size: 30pt;
-        font-weight: bold;
+        font-weight: 700;
       }
       .overlay a {
         /* padding: 15px; */
@@ -787,8 +788,9 @@ p{
   text-decoration: none;
   color: #aaff00;
     }
-    footer h3{
+    footer h3 a{
       font-size: 25pt;
+      font-weight: 700;
     }
     footer p{
       font-size: 12pt;
@@ -1079,6 +1081,9 @@ p{
         .content4 h2{
           font-size: 30pt;
         }
+        footer ul li{
+          padding-inline:clamp(5px,1vw, 5px);
+        }
 
 
   }
@@ -1092,7 +1097,5 @@ p{
     .main .content h1{
       font-size: 30pt;
       }
-      footer ul li{
-        padding-inline:clamp(5px,1vw, 5px);
-      }
+
   }
