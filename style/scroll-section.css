@@ -14,7 +14,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  background: #feffbb;
+  background: #000;
   border-radius: 6px;
   cursor: pointer;
   opacity: 20%;
@@ -23,5 +23,5 @@
 
 #custom-thumb:hover {
   opacity: 1;
-  background: #e7eb17;
+  background: #bdff00;
 }
