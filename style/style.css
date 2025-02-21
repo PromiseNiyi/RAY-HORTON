@@ -238,7 +238,7 @@ p{
       transition: all 0.5s ease;
     }
     header:hover {
-        background-color: #bbff00c7;
+        background-color: #bbff00;
               
     }
     
@@ -429,8 +429,9 @@ p{
         height: 90vh;
         background-color: #000;
         background: 
-        linear-gradient(#bbff00a2, #bbff008f, #77a006b6, #bbff00a2), /* overlay with 50% black */
+        linear-gradient(#bbff00, #bbff00, #bbff00), /* overlay with 50% black */
         url('/images/8.png') no-repeat center center;
+        background-blend-mode: multiply; /* Blends the gradient with the image */
         background-size: cover;
         background-position: top  center;
         justify-content: center;
@@ -520,7 +521,7 @@ p{
   justify-content: space-between;
   align-items: center;
   gap: var(--gap);
-  animation: scroll 25s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 /* .word:hover ul{
   animation-play-state:paused ;
@@ -706,6 +707,7 @@ p{
     }
     .content4 h2{
       font-size: 50pt;
+      color: #aaff00;
     }
     .content4 p{
       font-size: 14pt;
@@ -741,6 +743,7 @@ p{
     }
 
     .content5{
+      max-width: 1250px;
       width: 80%;
       display: flex;
       flex-direction: column;
