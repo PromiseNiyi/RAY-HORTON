@@ -521,7 +521,7 @@ p{
   justify-content: space-between;
   align-items: center;
   gap: var(--gap);
-  animation: scroll 30s linear infinite;
+  animation: scroll 35s linear infinite;
 }
 /* .word:hover ul{
   animation-play-state:paused ;
@@ -1069,7 +1069,7 @@ p{
 
     .main{
    
-      min-height: 100vh;
+      min-height: 110vh;
       
     }
     .main .content h1{

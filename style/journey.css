@@ -224,7 +224,7 @@ font-size: 16pt;
         .section-Two img{
             transform: translateX(-50%);
             left: 50%; 
-            bottom: 10px;
+            bottom: 5px;
         }
 
         .section-Three .content-three{
@@ -264,5 +264,17 @@ font-size: 16pt;
             background: linear-gradient(#ffffff00,#ffffff00,#5050503b, #50505028, #0000009f, #000000e3, #000); /* Adjust transparency */
             z-index: 10;
           }
+
+  }
+
+  @media only screen and (max-width: 900px) {
+    .section-Two{
+        padding: 2em 1em 13em;
+    }
+    .section-Two img{
+        transform: translateX(-50%);
+        left: 50%; 
+        bottom: -15px;
+    }
 
   }
